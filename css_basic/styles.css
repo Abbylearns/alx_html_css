@@ -1,0 +1,35 @@
+/* Flexbox Layout Styling */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  overflow: hidden;
+}
+
+article {
+  flex: 2;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  padding: 1rem;
+  background-color: #e0e0e0;
+  overflow-y: auto;
+}
+
+header, footer {
+  background-color: #ccc;
+  padding: 1rem;
+  text-align: center;
+}
