@@ -82,6 +82,55 @@ header {
   text-align: center;
 }
 
+.site-footer {
+  background-color: #1a1a1a; /* match footer background from Figma */
+  color: white;
+  padding: 60px 20px 30px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-socials a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #999;
+}
+
+
 .hero h2 {
   font-size: 48px;
   margin-bottom: 20px;
