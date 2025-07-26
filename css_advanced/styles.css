@@ -115,3 +115,41 @@ header {
   color: #666; /* from Figma */
 }
 
+.videos-section {
+  padding: 60px 20px;
+  background-color: #fff; /* or check Figma */
+  text-align: center;
+}
+
+.videos-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333; /* or from Figma */
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.video-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-card h3 {
+  padding: 10px;
+  font-size: 18px;
+  color: #222;
+}
