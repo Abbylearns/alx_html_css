@@ -188,3 +188,32 @@ header {
   background-color: #e04e4e;
 }
 
+.faq-section {
+  padding: 80px 20px;
+  background-color: #f9f9f9; /* match the exact color from Figma */
+  color: #333;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
