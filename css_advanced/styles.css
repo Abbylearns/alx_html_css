@@ -153,3 +153,38 @@ header {
   font-size: 18px;
   color: #222;
 }
+
+.membership-section {
+  padding: 80px 20px;
+  background-color: #2c2c2c; /* Check exact color in Figma */
+  text-align: center;
+  color: #fff;
+}
+
+.membership-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.membership-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+.membership-btn {
+  background-color: #ff5c5c; /* or whatever matches Figma */
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.membership-btn:hover {
+  background-color: #e04e4e;
+}
+
