@@ -401,5 +401,26 @@ footer p {
   margin-bottom: 10px;
 }
 
+.hero {
+  background-image: url('images/hero-background.jpg'); /* replace with actual Figma hero image file name */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
 
 
