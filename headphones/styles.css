@@ -1,0 +1,94 @@
+/* ==== RESET ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==== GLOBAL ==== */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1A1A1A; /* Figma primary text color */
+  background-color: #FFFFFF;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ==== HEADER ==== */
+header {
+  background-color: #FFFFFF;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FF6565; /* Accent color from Figma */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1A1A1A;
+}
+
+nav a:hover {
+  color: #FF6565; /* Accent hover color */
+}
+
+/* ==== HERO ==== */
+.hero {
+  background: url('images/headphones_hero_1.jpg') no-repeat center center / cover;
+  height: 800px; /* exact from Figma */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+  max-width: 800px;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.hero button {
+  margin-top: 40px;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #FF6565;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  opacity: 0.9;
+}
