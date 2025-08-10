@@ -281,4 +281,51 @@ nav a:hover {
 .result-item p {
   font-size: 1.1rem;
 }
+.contact {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  color: #666;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.contact button {
+  padding: 12px;
+  background-color: #ff6565;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.contact button:hover {
+  opacity: 0.9;
+}
+
 
