@@ -369,6 +369,37 @@ footer p {
   font-size: 14px;
   color: #aaa;
 }
+ .what-we-do {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.what-we-do h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service {
+  max-width: 250px;
+}
+
+.service img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
 
 
 
